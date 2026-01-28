@@ -145,6 +145,8 @@
             Initials: <input type="text" minlength="1" maxlength="6" name="initials" size="5" value="<?php echo @$_GET["initials"] ?>"/>
             Description: <input type="text" minlength="0" maxlength="100" name="description" value="<?php echo @$_GET["description"] ?>"/>
             Colour:   <input type="color" id="colour" name="colour" value="<?php echo @$_GET["colour"] ? $_GET["colour"] : "#ff0000"; ?>" />
+            &nbsp;[<a href="year_planner.db" target="git">Backup</a>]
+            &nbsp;[<a href="https://github.com/rogerhyam/year_planner" target="git">Help</a>]
     </div>
 <hr/>
   <?php
